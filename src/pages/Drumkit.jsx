@@ -11,15 +11,15 @@
 
 
  const drumKit = [
-   { name: "tamborine", audio: drumsOne, keyPress: "Q" },
-   { name: "horror-movie", audio: drumsTwo, keyPress: "W" },
-   { name: "achievement-sound", audio: drumsThree, keyPress: "E" },
-   { name: "rolling-drum", audio: drumsFour, keyPress: "A" },
-   { name: "wacky-sound", audio: drumsFive, keyPress: "S" },
-   { name: "more-drums", audio: drumsSix, keyPress: "D" },
-   { name: "organ", audio: drumsSeven, keyPress: "Z" },
+   { name: "achievement sound ", audio: drumsOne, keyPress: "Q" },
+   { name: "official drums", audio: drumsTwo, keyPress: "W" },
+   { name: "scary drums", audio: drumsThree, keyPress: "E" },
+   { name: "drum roll", audio: drumsFour, keyPress: "A" },
+   { name: "wacky sound", audio: drumsFive, keyPress: "S" },
+   { name: "more drums", audio: drumsSix, keyPress: "D" },
+   { name: "drum thuds", audio: drumsSeven, keyPress: "Z" },
    { name: "horror-drums", audio: drumsEight, keyPress: "X" },
-   { name: "drum-noise", audio: drumsNine, keyPress: "C" },
+   { name: "drum and clink", audio: drumsNine, keyPress: "C" },
  ];
  const App = () => {
    const [displayText, setDisplayText] = useState("");

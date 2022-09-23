@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
     return (
-        <nav>
-            <ul>
+        <nav className="m-5 ">
+            <ul className="flex flex-row justify-center gap-3">
                 <li>
                     <Link to="/">Home</Link>
                 </li>
