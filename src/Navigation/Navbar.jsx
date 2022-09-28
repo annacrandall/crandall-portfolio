@@ -8,10 +8,10 @@ const Navbar = () => {
         <nav className="m-3">
             <ul className="flex flex-row justify-center gap-20">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" className="">Home</Link>
                 </li>
                 <Popover className="relative">
-                    <Popover.Button>Projects</Popover.Button>
+                    <Popover.Button className="font-medium">Projects</Popover.Button>
                     <Transition
                         enter="transition duration-100 ease-out"
                         enterFrom="transform scale-95 opacity-0"
@@ -20,14 +20,14 @@ const Navbar = () => {
                         leaveFrom="transform scale-100 opacity-100"
                         leaveTo="transform scale-95 opacity-0" >
 
-                        <Popover.Panel className="absolute text-center">
+                        <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl">
                         <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-                            <div className="relative grid gap-8 bg-white p-7 lg:grid-cols-1">
-                                <Link to="/drumkit" className="flex h-10 w-10 shrink-0 items-center justify-center text-black sm:h-12 sm:w-12">Drumkit</Link>
-                                <Link to="/quotes" className="flex h-10 w-10 shrink-0 items-center justify-center text-black sm:h-12 sm:w-12">Quote Generator</Link>
-                                <Link to="/calculator" className="flex h-10 w-10 shrink-0 items-center justify-center text-black sm:h-12 sm:w-12">Calculator</Link>
-                                <Link to="/pomodoro" className="flex h-10 w-10 shrink-0 items-center justify-center text-black sm:h-12 sm:w-12">Pomodoro Clock</Link>
-                                <Link to="/markdown" className="flex h-10 w-10 shrink-0 items-center justify-center text-black sm:h-12 sm:w-12">Markdown Previewer</Link>
+                            <div className="relative grid gap-8 bg-white p-7 lg:grid-cols-2">
+                                <Link to="/drumkit" className="hover:bg-gray-100 focus:outline-none focus focus-visible:ring-opacity-50 rounded p-2">Drumkit</Link>
+                                <Link to="/quotes" className="hover:bg-gray-100 focus:outline-none focus focus-visible:ring-opacity-50 rounded p-2">Quote Generator</Link>
+                                <Link to="/calculator" className="hover:bg-gray-100 focus:outline-none focus focus-visible:ring-opacity-50 rounded p-2">Calculator</Link>
+                                <Link to="/pomodoro" className="hover:bg-gray-100 focus:outline-none focus focus-visible:ring-opacity-50 rounded p-2">Pomodoro Clock</Link>
+                                <Link to="/markdown" className="hover:bg-gray-100 focus:outline-none focus focus-visible:ring-opacity-50 rounded p-2" >Markdown Previewer</Link>
                                 </div>
                                 </div>
                         </Popover.Panel>
