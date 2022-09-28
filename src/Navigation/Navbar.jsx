@@ -23,7 +23,7 @@ const Navbar = () => {
                         <Popover.Panel className="absolute left-1/2 z-50 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl">
                         <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                             <div className="relative grid gap-8 bg-white p-7 lg:grid-cols-2">
-                                <Link to="https://crandall-calculator.netlify.app" className="hover:bg-gray-100 focus:outline-none focus focus-visible:ring-opacity-50 rounded p-2">Drumkit</Link>
+                                <Link to="https://crandall-drumkit.netlify.app/" className="hover:bg-gray-100 focus:outline-none focus focus-visible:ring-opacity-50 rounded p-2">Drumkit</Link>
                                 <Link to="/quotes" className="hover:bg-gray-100 focus:outline-none focus focus-visible:ring-opacity-50 rounded p-2">Quote Generator</Link>
                                 <Link to="/calculator" className="hover:bg-gray-100 focus:outline-none focus focus-visible:ring-opacity-50 rounded p-2">Calculator</Link>
                                 <Link to="/pomodoro" className="hover:bg-gray-100 focus:outline-none focus focus-visible:ring-opacity-50 rounded p-2">Pomodoro Clock</Link>

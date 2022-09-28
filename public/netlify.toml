@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/drumkit"
+  to = "https://crandall-drumkit.netlify.app"
+  status = 301  
