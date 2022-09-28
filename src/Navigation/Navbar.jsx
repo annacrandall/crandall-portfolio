@@ -8,9 +8,9 @@ const Navbar = () => {
         <nav className="m-3">
             <ul className="flex flex-row justify-center gap-20">
                 <li>
-                    <Link to="/" className="">Home</Link>
+                    <Link to="/" className="font-medium">Home</Link>
                 </li>
-                <Popover className="relative">
+                <Popover className="relative z-50">
                     <Popover.Button className="font-medium">Projects</Popover.Button>
                     <Transition
                         enter="transition duration-100 ease-out"

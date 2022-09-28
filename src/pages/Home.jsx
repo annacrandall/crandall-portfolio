@@ -10,6 +10,11 @@ const Home = () => {
             };
   return (
     <div style={background}>
+      <div className="flex justify-center" >
+      <div className="m-5 p-6 backdrop-blur-md max-w-lg rounded-lg border border-gray-200 shadow-lg ">
+        <h1>Hello! I am Anna Crandall</h1>
+        </div>
+        </div>
     </div>
   );
 };
