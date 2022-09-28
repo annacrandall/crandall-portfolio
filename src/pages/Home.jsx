@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div style={background}>
       <div className="flex justify-center" >
-      <div className="m-5 p-6 backdrop-blur-lg max-w-lg rounded-lg border border-gray-200 shadow-lg ">
+      <div className="m-5 p-6 bg-amber-50 max-w-lg rounded-lg border border-gray-200 shadow-lg ">
           <h1 className="">Welcome </h1>
           <p className="leading-loose leading-9"></p>
         </div>
