@@ -3,7 +3,7 @@ import React from 'react';
   
 const Home = () => {
   const background={
-    backgroundImage:`url(${process.env.PUBLIC_URL+ "/background.jpg"})`,
+    backgroundImage:`url(${process.env.PUBLIC_URL+ "/home.jpg"})`,
             height:'100vh',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
