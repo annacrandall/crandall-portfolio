@@ -24,7 +24,7 @@ const Navbar = () => {
                                 </div>
                         </Popover.Panel>
                 </Popover>
-                <Link to="/contac" className="font-medium">Contact</Link>
+                <Link to="/contact" className="font-medium">Contact</Link>
             </ul>
         </nav>
     );
