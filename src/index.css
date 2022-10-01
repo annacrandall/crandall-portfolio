@@ -6,6 +6,10 @@
     font-family: 'Reem Kufi Fun', sans-serif;
  };
     
-.font-body{
+.font-error-body{
  font-family: 'Roboto Mono', monospace;
+ }
+
+ .font-body{
+    font-family: 'Josefin Sans', sans-serif;
  }

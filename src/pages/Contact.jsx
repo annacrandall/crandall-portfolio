@@ -27,7 +27,7 @@ const Contact = () => {
   
   return (
     <div style={background}>
-      <div className="m-5 text-center">
+      <div className="m-3 text-center">
         <div className="pt-2 pb-2 text-2xl font-medium">
           <h1> Contact Form</h1>
         </div>
