@@ -18,19 +18,26 @@ const Home = () => {
           </div>
           </div>
         <div id="info-container" className="grid grid-cols-2" >
-        <div id="about-me-box" className="p-6 bg-white rounded-lg border border-gray-600 shadow-lg ml-5 mr-3" >
-            <h1 className="font-home">More about me:</h1>
-              <p>I'm passionate about drawing and designing tatoos.</p>
+        <div id="about-me-box" className="p-6 bg-white rounded-lg border border-gray-600 shadow-lg ml-5 mr-3 mt-8 font-home leading-relaxed" >
+            <h1 className="text-lg text-center">More about me:</h1>
+            <p className="mt-1">I'm passionate about drawing and designing tattoos.</p>
+            <p>I'm currently working on a photo page dedicated to my cat, Mac, and a task manager app.</p>
+            <p>If I'm not programming, you can find me out on the nature trails in town, hanging out with friends, playing with Mac, and </p>
+    
           </div>
-          <div className="p-6 bg-white rounded-lg border border-gray-600 shadow-lg font-home ml-3 mr-5" id>
-            <h1 className="font-home">Languages and Libraries:</h1>
-            <ul>
+          <div className="p-6 bg-white rounded-lg border border-gray-600 shadow-lg font-home ml-3 mr-5 mt-8" id="language-container">
+            <h1 className="text-lg text-center font-home" id="languages-header">Languages and Libraries:</h1>
+            <ul className='grid grid-cols-2 mt-1' id="languages-list">
               <li>HTML5</li>
               <li>CSS</li>
               <li>TailwindCSS</li>
               <li>JavaScript</li>
               <li>React.js</li>
-              <li></li>
+              <li>Bootstrap</li>
+              <li>SASS</li>
+              <li>jQuery</li>
+              <li>Figma</li>
+              <li>Redux.js</li>
           </ul>
           </div>
         </div>
