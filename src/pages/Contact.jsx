@@ -35,9 +35,11 @@ const Contact = () => {
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
-      target="_blank"
+          target="_blank"
+          className="p-6 backdrop-blur-md rounded-lg border border-gray-600 shadow-lg"
     >
-      <div className="mb-3">
+          <div className="m-3">
+            <h1 className="text-left m-1 font-body">Well don't be shy! What's your name? </h1>
         <input
           type="text"
           placeholder="Your name"
@@ -46,7 +48,8 @@ const Contact = () => {
           required
         />
       </div>
-      <div className="mb-3 pt-0">
+          <div className="m-3">
+          <h1 className="text-left m-1 font-body">I'll need an email too...</h1>
         <input
           type="email"
           placeholder="Email"
@@ -55,7 +58,8 @@ const Contact = () => {
           required
         />
       </div>
-      <div className="mb-3 pt-0">
+          <div className="m-3">
+          <h1 className="text-left m-1 font-body">Now the message!</h1>
         <textarea
           placeholder="Your message"
           name="message"
@@ -68,7 +72,7 @@ const Contact = () => {
           className="bg-amber-900 text-white  font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
           type="submit"
         >
-          Send a message
+         Send message
         </button>
       </div>
         </form>
