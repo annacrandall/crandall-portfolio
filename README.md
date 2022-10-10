@@ -1,4 +1,4 @@
-To deploy on Netlify: https://github.com/annacrandall/crandall-portfolio 
+To deploy on Netlify: https://annacrandall-portfolio.netlify.app 
 
 This project was bootstrapped with Create React App and Tailwind CSS. 
 
